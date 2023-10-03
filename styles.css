@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  background-color: #1A1A1D;
+}
+
+#level-title {
+  font-family: 'Papyrus', fantasy;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+#suc{
+  margin-top: 75px;
+  margin-left: 99%;
+  margin-right: 0%;
+  color: #FAF1E4;
+}
+
+.container {
+  display: block;
+  width: 99%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #ED2B2A;
+}
+
+.green {
+  background-color:#9CFF2E;
+}
+
+.blue {
+  background-color: #A6F6FF;
+}
+
+.yellow {
+  background-color: yellow;
+}
+.white {
+  background-color: #FAF1E4;
+}
+.black {
+  background-color: #61677A;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
